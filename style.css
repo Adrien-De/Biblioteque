@@ -1,0 +1,281 @@
+/* <-------------- header css --------------> */
+header{
+  background-color: #000000;
+  margin: -8px;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 20%;
+  font-family:'Avenir'; 
+  
+}
+
+.titre{
+  flex: 1;
+  text-align: center;
+  margin-left: 90px;
+  font-size: 50px;
+}
+
+.logo{
+  width: 100px;
+}
+
+h1 {
+  color: #ffff;
+  text-align: center;
+  font-weight: lighter; 
+}
+/*<------------- article css --------------->*/
+
+.picture img{
+  float: right;
+  padding: 15px;
+  width: 300px;
+  height: 444px;
+  margin: 17px;
+}
+.picture .blue{
+  border: 10px solid #3FA2BA;
+}
+.picture .green{
+  border: 10px solid #ACD678;
+}
+
+/* <------------- aside css --------------> */
+aside {
+  display: block;
+  width: 18%;
+  padding-right: 15px;
+  margin-right: 15px;
+  background-color: #000000;
+  color: #ffff;
+  font-family:'Avenir'; 
+  padding-bottom: 35px;
+  
+}
+
+aside li {
+  text-decoration: none;
+  font-size: 22px;
+  padding-bottom: 50px;
+  font-weight: lighter; 
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+  border-bottom: 1px solid;     
+}
+
+h2{
+  font-size: 30px;
+  padding: 15px 30px;
+}
+
+/*<----------------mediaqueries 1420px------------------------------->*/
+@media only screen and (max-width: 1420px){
+ *{
+  width: auto;
+ }
+
+header{
+  background-color: #000000;
+  margin: -8px;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 20%;
+  font-family:'Avenir'; 
+  
+}
+
+.titre{
+  flex: 1;
+  text-align: center;
+  margin-left: 90px;
+  font-size: 50px;
+}
+
+.picture img{
+  float: right;
+  padding-left: 15px;
+  width: 330px;
+  height: 490px;
+  margin: 45px;
+}
+
+aside {
+  display: block;
+  width: 18%;
+  padding-right: 15px;
+  margin-right: 10px; 
+  padding-bottom: 35px;
+  
+}}
+
+/*<----------------mediaqueries 1126px------------------------------->*/
+@media only screen and (min-width:1050px) and (max-width:1126px){
+ *{
+  width: auto;
+ }
+.picture img{
+  float: right;
+  padding-left: 15px;
+  width: 306px;
+  height: 450px;
+  margin: 40px;
+}
+.titre{
+  font-size: 35px;
+}}
+
+/*<----------------mediaqueries 1050px------------------------------->*/
+@media only screen and (min-width:946px) and (max-width: 1050px){
+ *{
+  width: auto;
+ }
+.picture img{
+  float: right;
+  padding-left: 15px;
+  width: 279px;
+  height: 410px;
+  margin: 30px;
+}
+.titre{
+  font-size: 35px;
+}}
+
+/*<----------------mediaqueries 946px------------------------------->*/
+@media only screen and (min-width:778px) and (max-width: 946px){
+ *{
+  width: auto;
+ }
+.picture img{
+  float: right;
+  padding-left: 15px;
+  width: 231px;
+  height: 340px;
+  margin: 20px;
+}
+.picture .blue{
+  border: 7px solid #3FA2BA;
+}
+.picture .green{
+  border: 7px solid #ACD678;
+}
+.titre{
+  font-size: 30px;
+}
+
+aside li {
+  text-decoration: none;
+  font-size: 15px;
+  padding-bottom: 15px; 
+}
+
+h2{
+  font-size: 20px;
+  padding: 15px 30px;
+}}
+
+
+/*<----------------mediaqueries 778px------------------------------->*/
+@media only screen and (min-width:715px) and (max-width: 778px){
+ *{
+  width: auto;
+ }
+.picture img{
+  float: right;
+  padding-left: 15px;
+  width: 204px;
+  height: 300px;
+  margin: 20px;
+}
+.picture .blue{
+  border: 7px solid #3FA2BA;
+}
+.picture .green{
+  border: 7px solid #ACD678;
+}
+.titre{
+  font-size: 30px;
+}
+
+aside li {
+  font-size: 15px;
+  padding-bottom: 15px; 
+}
+
+h2{
+  font-size: 20px;
+  padding: 15px 30px;
+}}
+/*<----------------mediaqueries 715px------------------------------->*/
+@media only screen and (min-width : 321px) and (max-width: 715px) {
+ *{
+  width: auto;
+ }
+
+header{
+  margin: -8px;
+  display: flex;
+  align-items: center; 
+}
+
+.titre{
+  display: none;
+}
+.logo{
+  width: 80px;
+}
+h1 {
+  text-align: center;
+  font-size: 30px; 
+}
+
+.picture img{
+  padding: 5px;
+  width: 136px;
+  height: 200px;
+  margin: 7px;
+  margin-top: .9em;
+}
+.picture .blue{
+  border: 6px solid #3FA2BA;
+}
+.picture .green{
+  border: 6px solid #ACD678;
+}
+
+aside {
+    width: 100%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+}
+
+aside li {
+  text-decoration: none;
+  font-size: 15px;
+  padding-bottom: 7px;
+  font-weight: lighter; 
+}
+h2{
+  font-size: 20px;
+  padding: 10px 30px;
+}}
+
+
