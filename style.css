@@ -4,10 +4,9 @@ header{
   margin: -8px;
   display: flex;
   align-items: center;
-  padding-left: 0.5%;
+  padding-left: 1%;
   padding-right: 20%;
   font-family:'Avenir'; 
-  
 }
 
 .titre{
@@ -26,20 +25,125 @@ h1 {
   text-align: center;
   font-weight: lighter; 
 }
+
+
 /*<------------- article css --------------->*/
 
-.picture img{
+.container{
   float: right;
-  padding: 15px;
-  width: 300px;
-  height: 444px;
-  margin: 17px;
+  width: 80%;
+  background:#fff;
+  margin-left: 0px; 
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+
 }
-.picture .blue{
-  border: 10px solid #3FA2BA;
+
+.container .boxb{
+	float: right;
+	position: relative;
+	width: 340px;
+	height: 500px;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 17px;
 }
-.picture .green{
-  border: 10px solid #ACD678;
+.container .boxg{
+	float: right;
+	position: relative;
+	width: 340px;
+	height: 500px;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 17px;
+}
+
+.boxb{
+	border: 10px solid #3FA2BA;
+}
+.boxg{
+	border: 10px solid #ACD678;
+}
+.container .boxb .imgBox{
+	position: relative;
+}
+.container .boxg .imgBox{
+	position: relative;
+}
+.container .boxb .imgBox img{
+	max-width: 100%;
+	width: 299px;
+    height: 444px;
+}
+.container .boxg .imgBox img{
+	max-width: 100%;
+	width: 299px;
+    height: 444px;
+}
+.container .boxb .details{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	background: rgba(0, 0, 0, 0.9);
+	justify-content: center;
+    opacity: 0;
+	transition: opacity 0.25s;
+	display: flex;
+	flex-direction: column;
+}
+.container .boxg .details{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	background: rgba(0, 0, 0, 0.9);
+	justify-content: center;
+    opacity: 0;
+	transition: opacity 0.25s;
+	display: flex;
+	flex-direction: column;
+}
+.container .boxb > * .details{
+	transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.container .boxg > * .details{
+	transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.container .boxb:hover > * .details{
+	transform: translateY(0);
+}
+.container .boxg:hover > * .details{
+	transform: translateY(0);
+}
+.container .boxb:hover .details{
+opacity: 1;
+}
+.container .boxg:hover .details{
+opacity: 1;
+}
+.container .boxb .details .content{
+	position: absolute;
+	padding: 15px;
+	color: #ffff;
+	font-size: 1.1em;
+    margin-top: 0.25em;
+    font-family: 'Avenir';
+}
+.container .boxg .details .content{
+	position: absolute;
+	padding: 15px;
+	color: #ffff;
+	font-size: 1.1em;
+    margin-top: 0.25em;
+    font-family: 'Avenir';
 }
 
 /* <------------- aside css --------------> */
@@ -85,21 +189,15 @@ h2{
   padding: 15px 30px;
 }
 
-/*<----------------mediaqueries 1420px------------------------------->*/
-@media only screen and (max-width: 1420px){
+/*<----------------mediaqueries 1370px------------------------------->*/
+@media only screen and (max-width: 1370px){
  *{
   width: auto;
  }
 
 header{
-  background-color: #000000;
-  margin: -8px;
-  display: flex;
-  align-items: center;
-  padding-left: 0.5%;
+  padding-left: 1%;
   padding-right: 20%;
-  font-family:'Avenir'; 
-  
 }
 
 .titre{
@@ -108,15 +206,37 @@ header{
   margin-left: 90px;
   font-size: 50px;
 }
-
-.picture img{
-  float: right;
-  padding-left: 15px;
-  width: 330px;
-  height: 490px;
-  margin: 45px;
+.container .boxb{
+	float: right;
+	position: relative;
+	width: 319px;
+	height: 470px;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 17px;	
+}
+.container .boxg{
+	float: right;
+	position: relative;
+	width: 319px;
+	height: 470px;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 17px;	
 }
 
+.container .boxb .imgBox img{
+	max-width: 100%;
+	width: 279px;
+    height: 410px;
+}
+.container .boxg .imgBox img{
+	max-width: 100%;
+	width: 279px;
+    height: 410px;
+}
 aside {
   display: block;
   width: 18%;
@@ -126,64 +246,190 @@ aside {
   
 }}
 
-/*<----------------mediaqueries 1126px------------------------------->*/
-@media only screen and (min-width:1050px) and (max-width:1126px){
+/*<----------------mediaqueries 1288px------------------------------->*/
+@media only screen and (min-width:1214px) and (max-width:1288px){
  *{
   width: auto;
  }
-.picture img{
-  float: right;
-  padding-left: 15px;
-  width: 306px;
-  height: 450px;
-  margin: 40px;
+
+.container .boxb{
+	float: right;
+	position: relative;
+	width: 299px;
+	height: 440px;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 17px;
+}
+.container .boxg{
+	float: right;
+	position: relative;
+	width: 299px;
+	height: 440px;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 17px;
+}
+.boxb{
+	border: 9px solid #3FA2BA;
+}
+.boxg{
+	border: 9px solid #ACD678;
+}
+
+.container .boxb .imgBox img{
+	max-width: 100%;
+	width: 258px;
+    height: 380px;
+}
+.container .boxg .imgBox img{
+	max-width: 100%;
+	width: 258px;
+    height: 380px;
+}
+.container .boxb .details .content{
+	position: absolute;
+	padding: 15px;
+	color: #ffff;
+	font-size: 1em;
+    margin-top: 0.25em;
+}
+.container .boxg .details .content{
+	position: absolute;
+	padding: 15px;
+	color: #ffff;
+	font-size: 1em;
+    margin-top: 0.25em;
 }
 .titre{
   font-size: 35px;
 }}
 
-/*<----------------mediaqueries 1050px------------------------------->*/
-@media only screen and (min-width:946px) and (max-width: 1050px){
+/*<----------------mediaqueries 1134px------------------------------->*/
+@media only screen and (min-width:1134px) and (max-width: 1214px){
  *{
   width: auto;
  }
-.picture img{
-  float: right;
-  padding-left: 15px;
-  width: 279px;
-  height: 410px;
-  margin: 30px;
+.container .boxb{
+	float: right;
+	position: relative;
+	width: 278px;
+	height: 410px;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 17px;	
+}
+.container .boxg{
+	float: right;
+	position: relative;
+	width: 278px;
+	height: 410px;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 17px;	
+}
+.boxb{
+	border: 9px solid #3FA2BA;
+}
+.boxg{
+	border: 9px solid #ACD678;
+}
+
+.container .boxb .imgBox img{
+	max-width: 100%;
+	width: 238px;
+    height: 350px;
+}
+.container .boxg .imgBox img{
+	max-width: 100%;
+	width: 238px;
+    height: 350px;
+}
+.container .boxb .details .content{
+	position: absolute;
+	padding: 15px;
+	color: #ffff;
+	font-size: 0.9em;
+    margin-top: 0.25em;
+}
+.container .boxg .details .content{
+	position: absolute;
+	padding: 15px;
+	color: #ffff;
+	font-size: 0.9em;
+    margin-top: 0.25em;
 }
 .titre{
   font-size: 35px;
 }}
 
-/*<----------------mediaqueries 946px------------------------------->*/
-@media only screen and (min-width:778px) and (max-width: 946px){
+/*<----------------mediaqueries 1036px------------------------------->*/
+@media only screen and (min-width:1036px) and (max-width: 1134px){
  *{
   width: auto;
  }
-.picture img{
-  float: right;
-  padding-left: 15px;
-  width: 231px;
-  height: 340px;
-  margin: 20px;
-}
-.picture .blue{
-  border: 7px solid #3FA2BA;
-}
-.picture .green{
-  border: 7px solid #ACD678;
-}
 .titre{
   font-size: 30px;
 }
+.container .boxb{
+	float: right;
+	position: relative;
+	width: 252px;
+	height: 370px;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 17px;	
+}
+.container .boxg{
+	float: right;
+	position: relative;
+	width: 252px;
+	height: 370px;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 17px;	
+}
+.boxb{
+	border: 8px solid #3FA2BA;
+}
+.boxg{
+	border: 8px solid #ACD678;
+}
 
+.container .boxb .imgBox img{
+	max-width: 100%;
+	width: 211px;
+    height: 310px;
+}
+.container .boxg .imgBox img{
+	max-width: 100%;
+	width: 211px;
+    height: 310px;
+}
+.container .boxb .details .content{
+	position: absolute;
+	padding: 15px;
+	color: #ffff;
+	font-size: 0.83em;
+    margin-top: 0.25em;
+}
+.container .boxg .details .content{
+	position: absolute;
+	padding: 15px;
+	color: #ffff;
+	font-size: 0.83em;
+    margin-top: 0.25em;
+}
 aside li {
   text-decoration: none;
-  font-size: 15px;
-  padding-bottom: 15px; 
+  font-size: 18px;
+  padding-bottom: 18px; 
 }
 
 h2{
@@ -192,74 +438,150 @@ h2{
 }}
 
 
-/*<----------------mediaqueries 778px------------------------------->*/
-@media only screen and (min-width:715px) and (max-width: 778px){
+/*<----------------mediaqueries 1036px------------------------------->*/
+@media only screen and (min-width:864px) and (max-width: 1036px){
  *{
   width: auto;
  }
-.picture img{
-  float: right;
-  padding-left: 15px;
-  width: 204px;
-  height: 300px;
-  margin: 20px;
+.container .boxb{
+	float: right;
+	position: relative;
+	width: 319px;
+	height: 470px;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 17px;
 }
-.picture .blue{
-  border: 7px solid #3FA2BA;
+.container .boxg{
+	float: right;
+	position: relative;
+	width: 319px;
+	height: 470px;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 17px;
 }
-.picture .green{
-  border: 7px solid #ACD678;
+.boxb{
+	border: 10px solid #3FA2BA;
+}
+.boxg{
+	border: 10px solid #ACD678;
+}
+
+.container .boxb .imgBox img{
+	max-width: 100%;
+	width: 279px;
+    height: 410px;
+}
+.container .boxg .imgBox img{
+	max-width: 100%;
+	width: 279px;
+    height: 410px;
 }
 .titre{
   font-size: 30px;
 }
 
+
 aside li {
-  font-size: 15px;
-  padding-bottom: 15px; 
+  font-size: 18px;
+  padding-bottom: 18px; 
 }
 
 h2{
   font-size: 20px;
   padding: 15px 30px;
 }}
-/*<----------------mediaqueries 715px------------------------------->*/
-@media only screen and (min-width : 321px) and (max-width: 715px) {
+/*<----------------mediaqueries 864px------------------------------->*/
+@media only screen and (min-width : 1px) and (max-width: 864px) {
  *{
   width: auto;
  }
-
 header{
-  margin: -8px;
+  background-color: #000000;
+  margin: 1px;
   display: flex;
-  align-items: center; 
+  align-items: center;
+  padding-left: 1%;
+  padding-right: 20%;
+  font-family:'Avenir'; 
 }
 
 .titre{
   display: none;
 }
 .logo{
-  width: 80px;
+  width: 70px;
 }
 h1 {
   text-align: center;
-  font-size: 30px; 
+  font-size: 25px; 
 }
 
-.picture img{
-  padding: 5px;
-  width: 136px;
-  height: 200px;
-  margin: 7px;
-  margin-top: .9em;
+.container .boxb{
+	float: right;
+	position: relative;
+	width: 218px;
+	height: 320px;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 15px;
 }
-.picture .blue{
-  border: 6px solid #3FA2BA;
+.container .boxg{
+	float: right;
+	position: relative;
+	width: 218px;
+	height: 320px;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 15px;
 }
-.picture .green{
-  border: 6px solid #ACD678;
+.boxb{
+	border: 7px solid #3FA2BA;
+}
+.boxg{
+	border: 7px solid #ACD678;
 }
 
+.container .boxb .imgBox img{
+	max-width: 100%;
+	width: 177px;
+    height: 260px;
+}
+.container .boxg .imgBox img{
+	max-width: 100%;
+	width: 177px;
+    height: 260px;
+}
+
+.container .boxb .details .content{
+	position: absolute;
+	padding: 10px;
+	color: #ffff;
+	font-size: 0.7em;
+    margin-top: 0.25em;
+}
+.container .boxg .details .content{
+	position: absolute;
+	padding: 10px;
+	color: #ffff;
+	font-size: 0.7em;
+    margin-top: 0.25em;
+}
+.container{
+  float: left;
+  width: 100%;
+  background:#fff;
+  margin-left: 0px; 
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
 aside {
     width: 100%;
     padding-left: .5rem;
@@ -277,5 +599,4 @@ h2{
   font-size: 20px;
   padding: 10px 30px;
 }}
-
 
