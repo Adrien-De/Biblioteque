@@ -15,7 +15,6 @@
 
     <header>
         <?php require "header.php"; ?>
-
     </header>
 
     <main>
@@ -44,25 +43,8 @@
       </div>
       </article>
     
+       <?php require "aside.php"; ?>
 
-      <aside>
-        <h2>Notre Sélection</h2>
-        <!-- pas de puce stp -->
-        <ul style="list-style-type: none;">
-          <li><a href="../pages/accel.html">Accel World</a></li>
-          <li><a href="../pages/bakuman.html">Bakuman</a></li>
-          <li><a href="../pages/beastar.html">Beastars</a></li>
-          <li><a href="../pages/bleach.html">Bleach</a></li>
-          <li><a href="../pages/dgraym.html">D.Gray-Man</a></li>
-          <li><a href="../pages/darling.html">Darling in the FRANXX</a></li>
-          <li><a href="../pages/9782752300553.html">Excel Saga</a></li>
-          <li><a href="../pages/9782820316585.html">Haikyuu</a></li>
-          <li><a href="../pages/9782375060247.html">Overlord</a></li>
-          <li><a href="../pages/9782505066903.html">Sky High Survival</a></li>
-          <li><a href="../pages/9782351420553.html">Soul Eater</a></li>
-          <li><a href="../pages/9782818936238.html">Tate no Yuusha no Nariagi</a></li>
-        </ul>
-      </aside>
     </main>
   </body>
 </html>
