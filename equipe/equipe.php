@@ -12,15 +12,14 @@
     <![endif]-->
   </head>
   <body>
-
     <header>
-        <img class="logo" src="../Logo2.0.png" alt="Image" />
+       <a href="../index.php"><img class="logo" src="/biblio_groupe15_etape3/img/Logo2.0.png" alt="Image" /></a>
         <h1>図書館<br>Toshokan</h1>
         <nav>
           <ul>
-            <li><a href="../index.php"><strong>ACCUEIL</strong></a></li>
+         <li><a href="../index.php"><strong>ACCUEIL</strong></a></li>
             <li class="deroulant"><a href="#"><strong>GENRES</strong></a>
-             <ul class="sous">
+              <ul class="sous">
                 <li><a href="../genres/action.php"><strong>Action</strong></a></li>
                 <li><a href="../genres/aventure.php"><strong>Aventure</strong></a></li>
                 <li><a href="../genres/comedie.php"><strong>Comédie</strong></a></li>
@@ -35,13 +34,13 @@
                 <li><a href="../genres/sf.php"><strong>S.F</strong></a></li>
                 <li><a href="../genres/slice_life.php"><strong>Slice of life</strong></a></li>
                 <li><a href="../genres/surnaturel.php"><strong>Surnaturel</strong></a></li>
-              </ul> 
+              </ul>
             </li>
-            <li><a href="equipe.php"><strong>EQUIPE</strong></a></li>
-            <li><a href="#"><strong>CONTACT</strong></a></li>
+            <li><a href="../equipe/equipe.php"><strong>EQUIPE</strong></a></li>
+            <li><a href="../contact/contact.php"><strong>CONTACT</strong></a></li>
           </ul>
      </nav>
-    </header>
+ </header>
        
     <main class="container">
       <h2>Équipe</h2>
