@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 
     <title>図書館 - Toshokan</title>
-    <link rel="shortcut icon" href="../Logo2.0.png" type="image/png">
+    <link rel="shortcut icon" href="/biblio_groupe15_etape3/img/Logo2.0.png" type="image/png">
     <link href="stylecontact.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="stylecontact.css">
     <!--[if lt IE 9]>
@@ -14,7 +14,7 @@
   <body>
 
     <header>
-        <img class="logo" src="../Logo2.0.png" alt="Image" />
+        <img class="logo" src="/biblio_groupe15_etape3/img/Logo2.0.png" alt="Image" />
         <h1>図書館<br>Toshokan</h1>
         <nav>
           <ul>
