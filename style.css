@@ -5,7 +5,7 @@ header{
   display: flex;
   align-items: center;
   padding-left: 1%;
-  padding-right: 20%;
+  padding-right: 2%;
   font-family:'Avenir'; 
 }
 
@@ -26,12 +26,6 @@ h1 {
   font-weight: lighter; 
 }
 /* <------------ nav css ------------->*/
-
-*{
-	margin: 0px;
-	padding: 0px;
-	font-family: Avenir, sans-serif;
-}
 
 nav{
 	width: 100%;
@@ -98,7 +92,7 @@ nav > ul li:hover .sous{
 	background-color: black;
 	position: absolute;
 	width: 100%;
-	z-index: 1000;
+	z-index: 6;
 }
 
 nav ul li{
@@ -142,7 +136,7 @@ nav ul li{
 }
 
 .boxb{
-	border: 10px solid gold;
+	border: 10px solid #898989;
 }
 .boxg{
 	border: 10px solid #BF0000;
@@ -277,7 +271,7 @@ h2{
 
 header{
   padding-left: 1%;
-  padding-right: 20%;
+  padding-right: 2%;
 }
 
 .titre{
@@ -585,7 +579,7 @@ header{
   display: flex;
   align-items: center;
   padding-left: 1%;
-  padding-right: 20%;
+  padding-right: 2%;
   font-family:'Avenir'; 
 }
 
