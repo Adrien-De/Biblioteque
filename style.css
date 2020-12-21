@@ -84,21 +84,12 @@ nav > ul li:hover .sous{
 
 
 .sous{
-<<<<<<< HEAD
-	display: none;
-	box-shadow: 0px 1px 2px #E60000;
-	background-color: black;
-	position: absolute;
-	width: 100%;
-	z-index: 6;
-=======
   display: none;
   box-shadow: 0px 1px 2px #E60000;
   background-color: black;
   position: absolute;
   width: 100%;
   z-index: 10;
->>>>>>> e9cb18792005c691d0e2d2f3a394fd6660319997
 }
 
 nav ul li{
@@ -152,11 +143,7 @@ font-size: 2em;
 }
 
 .boxb{
-<<<<<<< HEAD
 	border: 10px solid #898989;
-=======
-	border: 10px solid #7759A3;
->>>>>>> e9cb18792005c691d0e2d2f3a394fd6660319997
 }
 .boxg{
 	border: 10px solid #7AF095;
