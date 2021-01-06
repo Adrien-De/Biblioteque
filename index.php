@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Bakuman</title>
+    <title>Toshokan</title>
     <link rel="shortcut icon" href="../Logo2.0.png" type="image/png">
     <link href="style.css" rel="stylesheet" type="text/css">
     <!--[if lt IE 9]>

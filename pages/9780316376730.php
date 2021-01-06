@@ -14,11 +14,8 @@
   <body>
 
     <header>
-        <a href="../index.php"><img class="logo" src="/biblio_groupe15_etape3/img/Logo2.0.png" alt="Image" /></a>
-        <h1>図書館<br>Toshokan</h1>
-        <?php require "../nav.php"; ?>
-    
-
+        <?php require "../header.php"; ?>
+    </header>
     <main>
       <article>
       <div class="content">

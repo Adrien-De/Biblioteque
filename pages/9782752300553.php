@@ -14,7 +14,7 @@
   <body>
 
     <header>
-               <?php require "header.php"; ?>
+               <?php require "../header.php"; ?>
 
     </header>
 
