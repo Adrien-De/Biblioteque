@@ -6,7 +6,6 @@
     <title>Darling in the FRANXX</title>
     <link rel="shortcut icon" href="../Logo2.0.png" type="image/png">
     <link href="stylepage.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="stylepage.css">
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
@@ -14,8 +13,7 @@
   <body>
 
     <header>
-               <?php require "header.php"; ?>
-
+      <?php require "../header.php"; ?>
     </header>
 
     <main>
@@ -49,7 +47,7 @@ Mais il fait alors la connaissance de Zero Two, une étrange jeune fille posséd
       </article>
     
 
-             <?php require "aside.php"; ?>
+             <?php require "../aside.php"; ?>
 
     </main>
   </body>

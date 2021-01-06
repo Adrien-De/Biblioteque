@@ -14,7 +14,7 @@
   <body>
 
     <header>
-               <?php require "header.php"; ?>
+               <?php require "../header.php"; ?>
 
     </header>
 
@@ -48,7 +48,7 @@
       </article>
     
 
-             <?php require "aside.php"; ?>
+             <?php require "../aside.php"; ?>
 
     </main>
   </body>

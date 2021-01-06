@@ -14,7 +14,7 @@
   <body>
 
     <header>
-             <?php require "header.php"; ?>
+             <?php require "../header.php"; ?>
 
     </header>
 
@@ -45,7 +45,7 @@ Mise en difficulté par son ennemi, la jeune fille décide alors de prêter une 
       </article>
     
 
-             <?php require "aside.php"; ?>
+             <?php require "../aside.php"; ?>
 
     </main>
   </body>

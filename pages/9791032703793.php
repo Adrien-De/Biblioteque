@@ -14,7 +14,7 @@
   <body>
 
     <header>
-      <?php require "header.php"; ?>
+      <?php require "../header.php"; ?>
 
     </header>
 
@@ -48,7 +48,7 @@ Le seul qui pourra apaiser ce climat de terreur est le Beastar, le leader de l'Ã
     
 
       <aside>
-          <?php require "aside.php"; ?>
+          <?php require "../aside.php"; ?>
       </aside>
     </main>
   </body>

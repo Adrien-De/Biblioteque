@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 
     <title>Accel World</title>
-    <link rel="shortcut icon" href="../Logo2.0.png" type="image/png">
+    <link rel="shortcut icon" href="/biblio_groupe15_etape3/img/Logo2.0.png" type="image/png">
     <link href="stylepage.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="stylepage.css">
     <!--[if lt IE 9]>
@@ -14,8 +14,10 @@
   <body>
 
     <header>
-        <?php require "header.php"; ?>
-    </header>
+        <a href="../index.php"><img class="logo" src="/biblio_groupe15_etape3/img/Logo2.0.png" alt="Image" /></a>
+        <h1>図書館<br>Toshokan</h1>
+        <?php require "../nav.php"; ?>
+    
 
     <main>
       <article>
@@ -43,7 +45,7 @@
       </div>
       </article>
     
-       <?php require "aside.php"; ?>
+       <?php require "../aside.php"; ?>
 
     </main>
   </body>

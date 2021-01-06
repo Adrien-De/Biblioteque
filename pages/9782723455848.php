@@ -14,7 +14,7 @@
   <body>
 
     <header>
-              <?php require "header.php"; ?>
+              <?php require "../header.php"; ?>
 
     </header>
 
@@ -45,7 +45,7 @@ Allen Walker est l'un d'entre eux, et s'apprête à rejoindre le quartier géné
       </article>
     
 
-             <?php require "aside.php"; ?>
+             <?php require "../aside.php"; ?>
 
     </main>
   </body>
