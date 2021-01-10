@@ -7,7 +7,7 @@
           <li><a href="/biblio_groupe15_etape4/pages/9791032703793.php">Beastars</a></li>
           <li><a href="/biblio_groupe15_etape4/pages/9782723442275.php">Bleach</a></li>
           <li><a href="/biblio_groupe15_etape4/pages/9782723455848.php">D.Gray-Man</a></li>
-          <li><a href="/biblio_groupe15_etape4/pages/darling.php">Darling in the FRANXX</a></li>
+          <li><a href="/biblio_groupe15_etape4/pages/9784088814544.php">Darling in the FRANXX</a></li>
           <li><a href="/biblio_groupe15_etape4/pages/9782752300553.php">Excel Saga</a></li>
           <li><a href="/biblio_groupe15_etape4/pages/9782820316585.php">Haikyuu</a></li>
           <li><a href="/biblio_groupe15_etape4/pages/9782375060247.php">Overlord</a></li>

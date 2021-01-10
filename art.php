@@ -1,7 +1,7 @@
 
 
 <?php $req = "SELECT Livre.titre,Livre.isbn,Genre.libelle AS genre,Livre.annee,Editeur.libelle AS editeur,Personne.prenom AS prenom, Personne.nom AS nom, Role.libelle AS role
- FROM Auteur JOIN Personne ON Auteur.idPersonne = Personne.id JOIN Role ON Auteur.idRole=Role.id JOIN Livre ON Auteur.idLivre = Livre.isbn JOIN Genre ON Livre.genre = Genre.id JOIN Editeur ON Livre.editeur=Editeur.id GROUP BY Livre.isbn, Personne.nom, Personne.prenom, Role.libelle; ORDER BY titre;";?>
+ FROM Auteur JOIN Personne ON Auteur.idPersonne = Personne.id JOIN Role ON Auteur.idRole=Role.id JOIN Livre ON Auteur.idLivre = Livre.isbn JOIN Genre ON Livre.genre = Genre.id JOIN Editeur ON Livre.editeur=Editeur.id GROUP BY Livre.isbn, Personne.nom, Personne.prenom, Role.libelle ORDER BY titre;";?>
 
 <div class="container">
               <?php $result = mysqli_query($link,$req);
