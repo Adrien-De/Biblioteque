@@ -2,7 +2,7 @@
 <html>
   <head>
           <?php
-     $link = mysqli_connect("localhost", "root", "root", "bibliothèque");
+     $link = mysqli_connect("localhost", "root", "root", "bibliogroupe15");
   //if(!$link){echo "Erreur : Impossible de se connecter à MySQL." . PHP_EOL;echo "Errno de débogage : " . mysqli_connect_errno() . PHP_EOL;echo "Erreur de débogage : " . mysqli_connect_error() . PHP_EOL; exit; }
     
   //echo "Succès : Une connexion correcte à MySQL a été faite! La base de donnée bibliothèque a été ouverte." . PHP_EOL;
