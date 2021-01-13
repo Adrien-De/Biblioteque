@@ -22,7 +22,7 @@
   </header>
     <main>
       <article class="bodyy">
-        <?php require "article.php";?>
+        <?php require "art.php"; ?>
 	  </article>
 	  <?php require "aside.php"; ?>
     </main>
