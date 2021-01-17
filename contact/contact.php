@@ -6,7 +6,6 @@
     <title>図書館 - Toshokan</title>
     <link rel="shortcut icon" href="/biblio_groupe15_etape3/img/Logo2.0.png" type="image/png">
     <link href="stylecontact.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="stylecontact.css">
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
@@ -20,31 +19,35 @@
   <body>
     <main class="container">
         <h2>Contact</h2>
-    <form method="post" action="receive.php">
-      	<fieldset>
-            <legend>Formulaire à remplir :</legend>
-    	<label for="name">Nom :</label>
-    	<input type="text" id="name" name="name" autofocus required><br>
-
-    	<label for="mail">Adresse e-mail :</label>
-    	<input type="email" id="mail" name="mail" required><br>
-
-    	<label for="raison" required>Raison du contact :</label>
-    	<select>
-    		<option value="1">Je ne vois pas les images</option>
-    		<option value="2"selected>Il y a une page inaccessible</option>
-    		<option value="3">Les informations ne sont pas visibles</option>
-            <option value="4">Quand sera la prochaine mise à jour</option>
-            <option value="5">Information incorrect</option>
-    	</select><br>
-    	
-
-        <label for="autre">Autres :</label><br>
-    	<textarea cols="40" rows="5" id="autre" name="autre" placeholder="Une autre raison"></textarea><br>
-
-        <button type="reset">Tout effacer</button>
-    	<button type="submit">Valider</button>
-   </fieldset> </form>
+    <form action="send_email.php" method="post">
+    <p>
+        <label for="civilite">Civilité :</label>
+        <select id="civilite" name="civilite">
+            <option value="mr" selected="selected">Monsieur</option>
+            <option value="mme">Madame</option>
+            <option value="mlle">Mademoiselle</option>
+        </select>
+    </p>
+    <p>
+        <label for="nom">Nom/Prénom :</label>
+        <input type="text" id="nom" name="nom" />  
+    </p>  
+    <p>  
+        <label for="email">E-mail :</label>  
+        <input type="text" id="email" name="email" />  
+    </p>
+    <p>  
+        <label for="sujet">Sujet :</label>  
+        <input type="text" id="sujet" name="sujet" />  
+    </p>  
+    <p>  
+        <label for="message">Message :</label>  
+        <textarea id="message" name="message" cols="40" rows="4"></textarea>  
+    </p>
+    <p>
+        <input type="submit" name="envoye" value="Envoyer" />
+    </p> 
+</form>
 </main>
   </body>
 </html>

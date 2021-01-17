@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-        <img class="logo" src="/biblio_groupe15_etape4/img/Logo2.0.png" alt="Image" />
-=======
-        <a href="/biblio_groupe15_etape4/index.php"><img class="logo" src="/biblio_groupe15_etape4/Logo2.0.png" alt="Image" /></a>
->>>>>>> c195ad14cc8ba6411280bf9e7a6c279e731c24a0
+        <a href="/biblio_groupe15_etape4/index.php"><img class="logo" src="/biblio_groupe15_etape4/Logo2.0.png" alt="image" /></a>
         <h1>図書館<br>Toshokan</h1>
         <nav>
           <ul>
